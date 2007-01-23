@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/00_use.t
+t/89_pod.t
+lib/Egg/Plugin/SessionKit/Bind/URI.pm
+META.yml                                 Module meta-data (added by MakeMaker)

@@ -1,0 +1,6 @@
+Revision history for Perl extension Egg::Plugin::SessionKit::Bind::URI.
+
+0.01  Wed Jan 24 01:05:39 2007
+	- original version; created by h2xs 1.23 with options
+		-AXn Egg::Plugin::SessionKit::Bind::URI
+

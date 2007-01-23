@@ -1,0 +1,41 @@
+NAME
+    Egg::Plugin::SessionKit::Bind::URI - Session ID is handed over by query
+    string
+
+VERSION
+    0.01
+
+SYNOPSIS
+    Configuration.
+
+      plugin_session=> {
+        bind=> {
+          name=> 'URI',
+          },
+        },
+
+CONFIGURATION
+    $e->config->{plugin_session}{bind} becomes setup of this module.
+
+  name
+    Please always specify 'URI' if you use this module.
+
+  NOTES
+    This plug-in obtains a large hint from
+    Egg::Plugin::SessionKit::Bind::Cookie of Egg Web Application Framework
+    URL:http://egg.bomcity.com .
+
+SEE ALSO
+    Egg::Plugin::SessionKit, Egg::Plugin::SessionKit::Bind::Cookie
+    Egg::Release Error HTML::StickyQuery NEXT
+
+AUTHOR
+    Akira Horimoto <emperor.kurt@gmail.com>
+
+COPYRIGHT
+    Copyright (C) 2007 Akira Horimoto
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.8.6 or, at
+    your option, any later version of Perl 5 you may have available.
+

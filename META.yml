@@ -1,0 +1,13 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Egg-Plugin-SessionKit-Bind-URI
+version:      0.01
+version_from: lib/Egg/Plugin/SessionKit/Bind/URI.pm
+installdirs:  site
+requires:
+    Egg::Plugin::SessionKit:       0.01
+    HTML::StickyQuery:             0.12
+    NEXT:                          0.6
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
